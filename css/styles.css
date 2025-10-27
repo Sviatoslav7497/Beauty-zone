@@ -1,0 +1,64 @@
+:root {
+  --color-light: #ffffff;
+  --color-brand-light: #2b7fff;
+  --color-brand-dark: #011c44;
+  --color-secondary1: #4a4a4a;
+  --color-secondary2: #4a4a4a;
+  --color-secondary3: #747272;
+  --color-secondary4: #011f4a;
+  --color-secondary5: #ffd02b;
+}
+/*base*/
+body {
+  color: var(--color-brand-dark);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*button*/
+.button {
+  background-color: var(--color-brand-light);
+  color: var(--color-light);
+  border-radius: 32px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: transparent;
+  color: var(--color-brand-dark);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 32px;
+}
+
+/*link*/
+.link {
+  color: var(--color-brand-dark);
+}
+.link:hover {
+  color: var(--color-brand-light);
+}
+.link-footer {
+  color: var(--color-light);
+}
+/*header*/
+
+/*hero section*/
+.hero-title {
+  color: var(--color-brand-light);
+}
+.section-title {
+  color: var(--color-brand-dark);
+}
+span {
+  color: var(--color-brand-light);
+}
+/*pronas-section*/
+
+/*chomu-section*/
+
+/*procedury-section*/
+
+/*contact-section*/
+
+/*footer*/
